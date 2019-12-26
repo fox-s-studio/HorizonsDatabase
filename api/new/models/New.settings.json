@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "new",
+  "info": {
+    "name": "new",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "default": "",
+      "type": "string"
+    },
+    "Description": {
+      "default": "",
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "section": {
+      "model": "section",
+      "via": "news"
+    }
+  }
+}
