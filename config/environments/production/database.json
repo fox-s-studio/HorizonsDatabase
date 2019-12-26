@@ -2,10 +2,10 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "mongoose",
+      "connector": "strapi-hook-mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME}"
+        "client": "mongo",
+        "uri": "${process.env.DATABASE_URI}"
       },
       "options": {
         "ssl": true
