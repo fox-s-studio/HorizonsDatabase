@@ -6,7 +6,7 @@
       "connector": "mongoose",
       "settings": {
         "client": "mongo",
-        "uri": "${process.env.DATABASE_URI || ''}",
+        "uri": "${process.env.DATABASE_URI || ''}"
       },
       "options": {
         "ssl": "${process.env.DATABASE_SSL || false}",
