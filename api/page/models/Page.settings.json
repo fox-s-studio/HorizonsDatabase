@@ -14,9 +14,8 @@
       "type": "string"
     },
     "backgrounds": {
-      "model": "background",
       "via": "pages",
-      "dominant": true
+      "model": "background"
     }
   }
 }

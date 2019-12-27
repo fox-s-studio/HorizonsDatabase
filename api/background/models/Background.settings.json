@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "background",
   "info": {
     "name": "background",
     "description": ""
@@ -22,6 +22,10 @@
     "section": {
       "model": "section",
       "via": "background"
+    },
+    "Nom": {
+      "type": "string",
+      "required": true
     }
   }
 }

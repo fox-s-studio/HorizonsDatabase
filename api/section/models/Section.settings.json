@@ -14,8 +14,8 @@
       "type": "string"
     },
     "background": {
-      "model": "background",
-      "via": "section"
+      "via": "section",
+      "model": "background"
     },
     "Logo": {
       "model": "file",
